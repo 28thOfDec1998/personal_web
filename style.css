@@ -1,0 +1,33 @@
+
+body{
+    background-color: #333;
+    color: white;
+}
+
+a{
+    color: chartreuse;
+}
+
+
+
+.intro {
+    font-size: 20px;
+
+}
+
+#about_me{
+    color: blue;
+}
+
+header {
+    background-color: white;
+    color: black;
+    width: 250px;
+}
+
+main{
+
+    background-color: gray;
+    color: black;
+    width: 250px;
+}
