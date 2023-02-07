@@ -1,33 +1,72 @@
+/* the 4 parts of a element 1.the content(height & width etc), 2.padding, 3.borders, 4.margin */
 
 body{
-    background-color: #333;
-    color: white;
+    background-color: #333; /*background of the page */
+    color: white; /*colour of the text */
 }
 
 a{
-    color: chartreuse;
+    color: black;
 }
 
 
-
+/* class in index.html */
 .intro {
-    font-size: 20px;
+    font-size: 20px; /* size of the text */
 
 }
 
-#about_me{
-    color: blue;
-}
+
 
 header {
-    background-color: white;
-    color: black;
+    background-color: black;
     width: 250px;
+
+    border: white 3px solid;
+
+    /* margin gave space outside the element & padding gave space inside the element. Cant tell the diff. 
+    between margin and padding if element dnt have a background colour */
+
+    /*clock wise top, right, bottom, left
+    
+    margin: 50px 30px 40px 20px; */
+
+   margin: 50px;  /* apply to all the sides*/
+
+   padding: 40px;  /* apply to all the sides*/
+
 }
+
+/* the 4 parts of a element 1.the content(height & width etc), 2.padding, 3.borders, 4.margin */
 
 main{
 
     background-color: gray;
     color: black;
-    width: 250px;
+    width: 500px;
+    padding: 20px;
+    margin: 50px;
+
+    /* border-color: blue;
+    border-width: 3px;
+    border-style: solid; */
+
+    border: rgb(24, 209, 193) 6px solid; /*shorthand*/
+
+    border-bottom-color: crimson;
+    border-left-color: violet;
+    border-left-style: dashed;
+  
+}
+
+footer{
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+/*about_us.html css */
+
+/* id in about page */
+#about_me{
+    color: blue;
 }
