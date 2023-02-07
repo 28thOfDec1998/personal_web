@@ -5,22 +5,12 @@ body{
     color: white; /*colour of the text */
 }
 
-a{
-    color: black;
-}
-
 
 /* class in index.html */
-.intro {
-    font-size: 20px; /* size of the text */
 
-}
-
-
-
-header {
+.index_head {
     background-color: black;
-    width: 250px;
+    width: 500px;
 
     border: white 3px solid;
 
@@ -33,16 +23,16 @@ header {
 
    margin: 50px;  /* apply to all the sides*/
 
-   padding: 40px;  /* apply to all the sides*/
+   padding: 20px;  /* apply to all the sides*/
 
 }
 
 /* the 4 parts of a element 1.the content(height & width etc), 2.padding, 3.borders, 4.margin */
 
-main{
+.index_main{
 
-    background-color: gray;
-    color: black;
+    background-color: black;
+    color: white;
     width: 500px;
     padding: 20px;
     margin: 50px;
@@ -51,7 +41,7 @@ main{
     border-width: 3px;
     border-style: solid; */
 
-    border: rgb(24, 209, 193) 6px solid; /*shorthand*/
+    border: rgb(24, 209, 193) 3px solid; /*shorthand*/
 
     border-bottom-color: crimson;
     border-left-color: violet;
@@ -59,14 +49,52 @@ main{
   
 }
 
-footer{
-    background-color: aliceblue;
-    padding: 5px;
+.index_foot{
+    background-color:black;
+    width: 500px;
+    padding: 20px;
+    margin: 50px;
+    color: white;
+    border: white 3px solid;
+}
+
+.index_link{
+    color: white;
 }
 
 /*about_us.html css */
 
-/* id in about page */
-#about_me{
-    color: blue;
+.myself_head{
+    background-color: black;
+    width: 500px;
+    padding: 30px;
+    margin: 50px;
+    border: white 3px solid;
+
 }
+
+.myself_main{
+    background-color: black;
+    color: white;
+    width: 500px;
+    border: white 3px solid;
+    padding: 30px;
+    margin: 50px;
+}
+
+.myself_foot{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    width: 500px;
+    margin: 50px;
+    border: white 3px solid;
+}
+
+.myself_link{
+    color: white;
+}
+
+/* #about_me{
+    color: blue; // (code for id) 
+} */
