@@ -3,6 +3,7 @@
 body{
     background-color: #333; /*background of the page */
     color: white; /*colour of the text */
+    margin: 0;
 }
 
 
@@ -10,9 +11,9 @@ body{
 
 .index_head {
     background-color: black;
-    width: 500px;
+    /* width: 500px; */
 
-    border: white 3px solid;
+    /* border: white 3px solid; */
 
     /* margin gave space outside the element & padding gave space inside the element. Cant tell the diff. 
     between margin and padding if element dnt have a background colour */
@@ -21,9 +22,11 @@ body{
     
     margin: 50px 30px 40px 20px; */
 
-   margin: 50px;  /* apply to all the sides*/
+   margin-bottom: 50px;  /* apply to all the sides*/
 
    padding: 20px;  /* apply to all the sides*/
+
+   text-align: center;
 
 }
 
@@ -33,9 +36,9 @@ body{
 
     background-color: black;
     color: white;
-    width: 500px;
+    width: 600px;
     padding: 20px;
-    margin: 50px;
+    margin: 0 auto;
 
     /* border-color: blue;
     border-width: 3px;
@@ -51,11 +54,12 @@ body{
 
 .index_foot{
     background-color:black;
-    width: 500px;
+    /* width: 500px; */
     padding: 20px;
     margin: 50px;
     color: white;
     border: white 3px solid;
+    text-align: center;
 }
 
 .index_link{
@@ -66,10 +70,11 @@ body{
 
 .myself_head{
     background-color: black;
-    width: 500px;
+    /* width: 500px; */
     padding: 30px;
-    margin: 50px;
-    border: white 3px solid;
+    margin-bottom: 50px;
+    /* border: white 3px solid; */
+    text-align: center;
 
 }
 
@@ -79,16 +84,17 @@ body{
     width: 500px;
     border: white 3px solid;
     padding: 30px;
-    margin: 50px;
+    margin: 0 auto;
 }
 
 .myself_foot{
     background-color: black;
     color: white;
     padding: 30px;
-    width: 500px;
+    /* width: 500px; */
     margin: 50px;
     border: white 3px solid;
+    text-align: center;
 }
 
 .myself_link{
