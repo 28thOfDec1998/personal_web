@@ -1,4 +1,5 @@
 /* the 4 parts of a element 1.the content(height & width etc), 2.padding, 3.borders, 4.margin */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body{
     background-color: #333; /*background of the page */
@@ -59,14 +60,20 @@ body{
     margin: 50px;
     color: white;
     border: white 3px solid;
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+}
+
+.index_col{
+    
+    margin: 5px;
 }
 
 .index_link{
     color: white;
 }
 
-/*about_us.html css */
+/*for_me.html css */
 
 .myself_head{
     background-color: black;
@@ -104,3 +111,15 @@ body{
 /* #about_me{
     color: blue; // (code for id) 
 } */
+
+/* it's ok.html CSS */
+
+.ok_head{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
