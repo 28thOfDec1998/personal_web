@@ -1,13 +1,9 @@
-//  let myAge = 10
+let count = 0;
+let countEl = document.getElementById("count-el"); 
 
-//  myAge = myAge + 10 
 
-// console.log(myAge)
 
-// let first_num = 5
-
-// let second_num = 6
-
-// let final_num = first_num * second_num
-
-// console.log(final_num)
+function increment() {
+    count += 1;
+    countEl.innerText = count;
+}
