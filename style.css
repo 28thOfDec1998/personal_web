@@ -147,3 +147,18 @@ body{
     
     margin: 0 10px;
 }
+
+/* counter,html Css */
+
+
+.counter_div{
+
+    background-color: black;
+    border: 3px white solid;
+    border-radius: 3px;
+    height: 500px;
+    width: 736px;
+    margin: auto;
+
+}
+
