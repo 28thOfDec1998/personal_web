@@ -5,12 +5,9 @@ module.exports = {
     screens:{
       sm: '680px',
       md: '920px',
+      
     },
-    extend: {
-      zIndex:{
-        '999':'999',
-      }
-    },
+    extend: {},
   },
   plugins: [],
 }
