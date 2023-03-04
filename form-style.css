@@ -1,7 +1,7 @@
 .form-head{
 
   background-color: #eeecec;
-  width: 700px;
+  max-width: 700px;
   margin: auto;
   padding: 10px;
   border-radius: 6px;
@@ -10,39 +10,11 @@
 
 }
 
-.form-foot{
 
-  background-color: #eeecec;
-  width: 700px;
-  margin: auto;
-  padding: 10px;
-  border-radius: 6px;
-  border: 2px solid #ccc;
-  align-items: center;
-  display: flex;
-  justify-content: center;
- 
-
-
-}
-
-.button{
-
-  background-color: #7a7d7a;
-  border: 2px solid #ccc;
-  color: white;
-  padding: 9px 32px;
-  text-align: center;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
- 
-
-}
 
 .form-main{
   background-color: #dbd8d8;
-  width: 700px;
+  max-width: 700px;
   margin: auto;
   padding: 10px;
   border-radius: 6px;
@@ -80,6 +52,21 @@
     background-color: #f1f1f1;
   }
 
+  
+  .bd
+ {
+
+  display: flex;
+
+ } 
+
+ .s{
+
+  width: 100%;
+  margin-right:20px;
+
+}
+
   select {
     display: block;
     cursor:pointer;
@@ -92,22 +79,8 @@
     
   }
 
-  .s{
-
-    width: 168px;
-    margin-right: 55px;
-
-  
-  }
-
-  .bd
- {
-
-  display: flex;
-  
   
 
- } 
 
  textarea {
   width: 100%;
@@ -122,22 +95,29 @@
 }
 
 
+.form-foot{
 
+  background-color: #eeecec;
+  max-width: 700px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 6px;
+  border: 2px solid #ccc;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+ 
+}
 
+.button{
 
-
-
-
-@media (max-width: 480px) {
-  .form-main {
-      top: 50%; /* IMPORTANT */
-      left: 50%; /* IMPORTANT */
-      display: block;
-      position: absolute;
-      width: 750px;
-      height: 417px;
-
-      margin-top: -208.5px; /* HALF OF THE HEIGHT */
-      margin-left: -375px; /* HALF OF THE WIDTH */
-  }
+  background-color: #7a7d7a;
+  border: 2px solid #ccc;
+  color: white;
+  padding: 9px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+ 
 }
