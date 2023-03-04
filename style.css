@@ -1,6 +1,8 @@
 
 /* index css */
 
+/* nav start */
+
 body {
     background-color: black;
     margin: 1.5em;
@@ -74,6 +76,12 @@ nav {
     background: gray;
 }
 
+.open-nav{
+    transform: translateX(0%);
+}
+
+/* nav close */
+
 
 .hero{
     color:white;
@@ -119,9 +127,7 @@ h1{
     line-height: 1.5rem;
 
 }
-.open-nav{
-    transform: translateX(0%);
-}
+
 @media only screen and (min-width: 680px){
 
     body {
@@ -189,6 +195,7 @@ h1{
     .cry_img{
 
         width: 70%;
+        
     }
    
 
