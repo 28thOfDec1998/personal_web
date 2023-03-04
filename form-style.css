@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto:wght@300&display=swap');
+
+
 .form-head{
 
   background-color: #eeecec;
@@ -6,6 +9,8 @@
   padding: 10px;
   border-radius: 6px;
   border: 2px solid #ccc;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
 
 
 }
@@ -19,6 +24,8 @@
   padding: 10px;
   border-radius: 6px;
   border: 2px solid #ccc;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   
 }
 
@@ -106,6 +113,8 @@
   align-items: center;
   display: flex;
   justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
  
 }
 
