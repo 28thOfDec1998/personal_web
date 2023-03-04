@@ -101,6 +101,15 @@ h1{
     font-size: 1.4rem;
 }
 
+.cry{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
 .cry_img{
 
     width: 100%;

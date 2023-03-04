@@ -33,6 +33,7 @@
     
              <h2>Myself</h2>
              <p>I need to better and keep my self strong ..</p>
+             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1OoykYQletETjZ5C1sWIoQ?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
              <img src="images/cry.gif" alt="cry">
        
         </main>
@@ -40,6 +41,23 @@
         <footer class="myself_foot">
             <p><a  href="index.html" class="myself_link" >Go back</a></p>
         </footer>
+
+        <script>
+
+            const menu = document.querySelector('.menus')
+            const close = document.querySelector('.close')
+            const nav = document.querySelector('nav')
+          
+            menu.addEventListener('click', () => {
+              nav.classList.add('open-nav')
+            })
+          
+            close.addEventListener('click', () => {
+              nav.classList.remove('open-nav')
+            })
+          
+          
+           </script>
 
 </body>
 </html>
