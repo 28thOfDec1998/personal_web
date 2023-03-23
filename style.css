@@ -62,7 +62,7 @@
 /* nav start */
 
 body {
-    background-color: black;
+    /* background-color: black; */
     margin: 1.5em;
     font-family: 'Poppins',sans-serif;
 }
@@ -183,6 +183,12 @@ h1{
    
 }
 
+.cry_eyes{
+
+    background-color: black;
+    
+}
+
 .cry_img{
 
     width: 100%;
@@ -191,10 +197,7 @@ h1{
 
     background-color: white;
     color: black;
-   
-    
-    
-   
+
 
 }
 
