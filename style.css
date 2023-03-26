@@ -54,22 +54,178 @@
     isolation: isolate;
   }
 
+  /* index css */
+
+
+  body {
+    margin: 0px;
+    font-family: 'Poppins',sans-serif;
+    background-color: #000000;
+    }
+
+    
+
+    a {
+        text-decoration: none;
+        font-size: 1.3rem;
+    }
+
+    h1{
+        font-size: 3rem;
+        margin-top: 1em;
+        line-height: 3.3rem;
+    }
+
+    .sec{
+        margin: 1.5em;
+    }
+
+    
+    .title{
+        color: white;
+        font-size: 1.5rem;
+        margin-top: 2em;
+    }
+
+    .subhead{
+        font-size: 1.4rem;
+    }
+
+    .desc{
+        color: white;
+        line-height: 1.5rem;
+    }
+
+    .nav {
+    height: 50px;
+    width: 100%;
+    background-color: #060606;
+    position: relative;
+    }
+
+    .nav > .nav-header {
+    display: inline;
+    }
+
+    .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    }
+
+    .nav > .nav-btn {
+    display: none;
+    }
+
+    .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+    }
+
+    .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+    }
+
+    .nav > .nav-links > a:hover {
+    background-color: rgba(115, 115, 115, 0.3);
+    }
+
+    .nav > #nav-check {
+    display: none;
+    }
+
+    .beauty{
+        background-color: white;
+        color: black;
+    }
+
+    .cry_img{
+        width: 70%;
+    }
+
+    .hero_sub{
+        color:white;
+        justify-content: space-between;
+    }
+
+    .cats{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cats_img{
+        width: 40%;
+    }
+
+    
+
+    @media (max-width:600px) {
+    .nav > .nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .nav > .nav-btn > label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #000000;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+    }
+    .nav > .nav-links > a {
+        display: block;
+        width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+        height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+    }
+    }
 
 
 
-/* index css */
+/* old index css */
 
-/* nav start */
+/* nav start 
 
 body {
-    /* background-color: black; */
+   
     margin: 1.5em;
     font-family: 'Poppins',sans-serif;
 }
 
 a {
     text-decoration: none;
-    /* For font sizes use rem */
     font-size: 1.3rem;
 }
 
@@ -138,13 +294,11 @@ nav {
     transform: translateX(0%);
 }
 
-/* nav close */
+
 
 
 .hero{
     color:white;
-   
-    /* height: 99vh; */
 }
 
 .cats{
@@ -152,7 +306,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    
    
 }
 
@@ -206,8 +359,7 @@ h1{
 .sad_img {
 
     width: 100%;
-    /* object-fit: cover;
-    height: 11em; */
+   
 
 }
 
@@ -280,7 +432,7 @@ h1{
     .hero{
 
         height: auto;
-        /* margin-bottom: 8em; */
+       
     }
 
     .sad_img{
