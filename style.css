@@ -58,7 +58,7 @@
 
 
   body {
-    margin: 0px;
+   
     font-family: 'Poppins',sans-serif;
     background-color: #000000;
     }
@@ -72,19 +72,21 @@
 
     h1{
         font-size: 3rem;
-        margin-top: 1em;
+        /* margin-top: 1em; */
         line-height: 3.3rem;
+        padding-top: 1em;
     }
 
     .sec{
-        margin: 3em;
+        margin-right: 3em;
+        margin-left: 3em;
     }
 
     
     .title{
-        color: white;
+       
         font-size: 1.5rem;
-        margin-top: 2em;
+        padding-top: 2em;
     }
 
     .subhead{
@@ -92,13 +94,19 @@
     }
 
     .desc{
-        color: white;
+       
         line-height: 1.5rem;
     }
 
-    .beauty{
+    .light{
         background-color: white;
         color: black;
+    }
+
+    
+    .dark{
+       
+        color: white;
     }
 
     .cry_img{
@@ -106,9 +114,11 @@
     }
 
     .hero_sub{
-        color:white;
+       
         justify-content: space-between;
     }
+
+  
 
     .cats{
         display: flex;
@@ -129,6 +139,8 @@
 
 
      /* For mobile phones: */
+
+
 
     @media only screen and (max-width: 768px){
 
